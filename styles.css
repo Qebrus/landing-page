@@ -1,24 +1,32 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 .header {
     display: flex;
-    gap: 10px;
+    gap: 20px;
     justify-content: center;
-    width: 800px;
+    align-items: center;
+    width: 900px;
     margin: 0 auto;
+    padding: 10px;
+}
+
+.bkg-blue {
     background-color: #1F2937;
 }
 
 .logo {
     flex: 1 0;
     font-size: 24px;
+    font-weight: 700;
     color: #F9FAF8;
 }
 
 a {
     font-size: 18px;
+    font-weight: 100;
     color: #E5E7EB;
     text-decoration: none;
 }
