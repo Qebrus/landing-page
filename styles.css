@@ -158,6 +158,16 @@ a:hover {
     margin: 0px;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1F2937;
+    font-size: 14px;
+    font-weight: 100;
+    color: #E5E7EB;
+}
+
 .info {
     font-size: 36px;
     font-weight: 700;
