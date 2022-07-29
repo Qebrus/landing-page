@@ -1,4 +1,12 @@
+html,
 body {
+    height:100%;
+    min-height:100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
@@ -17,12 +25,17 @@ a:hover {
 
 .header {
     display: flex;
+    flex: 1 0 auto;
     gap: 20px;
     justify-content: center;
     align-items: center;
     width: 900px;
     margin: 0 auto;
     padding: 10px;
+}
+.content {
+    flex: auto;
+    overflow-y: scroll;
 }
 
 .section-one {
@@ -167,6 +180,11 @@ a:hover {
     background: #3882F6;
     color: #F9FAF8;
     border-style: none;
+}
+
+.bkg-blue-header {
+    flex: 1 0 auto;
+    background-color: #1F2937;
 }
 
 .bkg-blue {
