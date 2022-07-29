@@ -11,6 +11,10 @@ a,
     text-decoration: none;
 }
 
+a:hover {
+    color: #ffffff;
+}
+
 .header {
     display: flex;
     gap: 20px;
@@ -42,6 +46,46 @@ a,
     flex-basis: 50%;
     justify-content: center;
     align-items: center;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 750px;
+    margin: 0px auto;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+.img-layout {
+    display: flex;
+    gap: 20px;
+}
+
+.img-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.img-text img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.img-text p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+    margin-bottom: 50px;
 }
 
 .hero {
